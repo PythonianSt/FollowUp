@@ -330,7 +330,7 @@ def style_dashboard(view: pd.DataFrame):
 # Pages
 # =========================================================
 def page_dashboard():
-    st.title("💚 Dashboard ติดตามอาการนักศึกษา")
+    st.title("💚 Dashboard ติดตามอาการนักศึกษา KU KPS Infirmary")
     st.caption("เรียงตามวัน–เวลาที่แพทย์บันทึกล่าสุดก่อน • เวลาเขตกรุงเทพฯ")
 
     col1, col2 = st.columns([5, 1])
